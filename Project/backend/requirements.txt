@@ -1,0 +1,30 @@
+# Backend API Dependencies
+# =========================
+# Install with: pip install -r requirements.txt
+
+# Web Framework
+fastapi==0.104.1          # Modern, fast web framework for building APIs
+uvicorn[standard]==0.24.0 # ASGI server to run FastAPI
+
+# Data Processing (from original requirements.txt)
+pandas==2.1.3             # Data manipulation and analysis
+numpy==1.26.2             # Numerical computing
+
+# Machine Learning (from original requirements.txt)
+scikit-learn==1.3.2       # ML models (RandomForest)
+joblib==1.3.2             # Model serialization
+
+# HTTP Requests
+requests==2.31.0          # HTTP library for API calls (Polygon.io)
+
+# Environment Variables
+python-dotenv==1.0.0      # Load .env files for configuration
+
+# Optional: Visualization (from original requirements)
+matplotlib==3.8.2         # Plotting (if needed for debugging)
+
+# Optional: Web Scraping (from original requirements)
+beautifulsoup4==4.12.2    # HTML parsing (if needed)
+
+# Note: streamlit removed as we're using FastAPI instead
+# Note: opendatasets removed as we're using Polygon API directly
