@@ -1,0 +1,71 @@
+INFO:     Will watch for changes in these directories: ['/Users/dan/Documents/CS 124 project/FA25-Group22/Project/backend']
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [22808] using StatReload
+✓ Model loaded successfully from /Users/dan/Documents/CS 124 project/FA25-Group22/Project/backend/../trained_stock_model.pkl
+INFO:     Started server process [22839]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+✓ Model loaded successfully from /Users/dan/Documents/CS 124 project/FA25-Group22/Project/backend/../trained_stock_model.pkl
+✓ Model loaded successfully from /Users/dan/Documents/CS 124 project/FA25-Group22/Project/backend/../trained_stock_model.pkl
+INFO:     127.0.0.1:54702 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54761 - "OPTIONS /api/predict/AAPL HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54762 - "OPTIONS /api/predict/AAPL HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54761 - "GET /api/predict/AAPL HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54762 - "GET /api/predict/AAPL HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54762 - "GET /api/predict/AAPL HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55156 - "OPTIONS /api/predict/AAPL HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55160 - "OPTIONS /api/data/AAPL HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55161 - "OPTIONS /api/predict/AAPL HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55162 - "OPTIONS /api/data/AAPL HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55156 - "GET /api/predict/AAPL HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55162 - "GET /api/predict/AAPL HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55164 - "GET /api/data/AAPL HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55162 - "GET /api/data/AAPL HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55172 - "OPTIONS /api/predict/NVDA HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55174 - "OPTIONS /api/data/NVDA HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55172 - "GET /api/predict/NVDA HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55174 - "GET /api/data/NVDA HTTP/1.1" 503 Service Unavailable
+INFO:     127.0.0.1:55181 - "OPTIONS /api/predict/GOOG HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55182 - "OPTIONS /api/data/GOOG HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55182 - "GET /api/predict/GOOG HTTP/1.1" 503 Service Unavailable
+INFO:     127.0.0.1:55181 - "GET /api/data/GOOG HTTP/1.1" 503 Service Unavailable
+INFO:     127.0.0.1:55181 - "OPTIONS /api/predict/GOOGL HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55182 - "OPTIONS /api/data/GOOGL HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55181 - "GET /api/predict/GOOGL HTTP/1.1" 503 Service Unavailable
+INFO:     127.0.0.1:55182 - "GET /api/data/GOOGL HTTP/1.1" 503 Service Unavailable
+INFO:     127.0.0.1:55195 - "GET /api/predict/AAPL HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55196 - "GET /api/data/AAPL HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55196 - "GET /api/predict/AAPL HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55195 - "GET /api/data/AAPL HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55195 - "GET /api/predict/AAPL HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55196 - "GET /api/data/AAPL HTTP/1.1" 503 Service Unavailable
+INFO:     127.0.0.1:55196 - "GET /api/predict/AAPL HTTP/1.1" 503 Service Unavailable
+INFO:     127.0.0.1:55195 - "GET /api/data/AAPL HTTP/1.1" 503 Service Unavailable
+INFO:     127.0.0.1:55267 - "GET /api/predict/AAPL HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55269 - "GET /api/data/AAPL HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55272 - "GET /api/predict/AAPL HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55267 - "GET /api/data/AAPL HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55622 - "OPTIONS /api/predict/NVDA HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55623 - "OPTIONS /api/data/NVDA HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55622 - "GET /api/predict/NVDA HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55623 - "GET /api/data/NVDA HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55638 - "OPTIONS /api/predict/GOOG HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55639 - "OPTIONS /api/data/GOOG HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55639 - "GET /api/predict/GOOG HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55638 - "GET /api/data/GOOG HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55659 - "OPTIONS /api/predict/PLTR HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55661 - "OPTIONS /api/data/PLTR HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55659 - "GET /api/predict/PLTR HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55661 - "GET /api/data/PLTR HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55687 - "OPTIONS /api/predict/TSLA HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55688 - "OPTIONS /api/data/TSLA HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55688 - "GET /api/predict/TSLA HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55687 - "GET /api/data/TSLA HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55811 - "OPTIONS /api/predict/AAPL HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55813 - "OPTIONS /api/data/AAPL HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55811 - "OPTIONS /api/data/AAPL HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55816 - "OPTIONS /api/predict/AAPL HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55816 - "GET /api/predict/AAPL HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55811 - "GET /api/data/AAPL HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55813 - "GET /api/predict/AAPL HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55816 - "GET /api/data/AAPL HTTP/1.1" 200 OK
